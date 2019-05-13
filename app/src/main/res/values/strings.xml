@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="home_title">Marvel</string>
+    <string name="error">An error has occurred. Try again.</string>
+    <string name="put_exp">Put a math expression to make a request</string>
+    <string name="calc">Calculate</string>
+    <string name="test_text_view">Label Test</string>
+    <string name="characters">Characters</string>
+    <string name="events">Events</string>
+    <string name="series">Series</string>
+    <string name="creators">Creators</string>
+    <string name="stories">Stories</string>
+    <string name="comics">Comics</string>
+    <string name="detail_title">Detail</string>
+</resources>
