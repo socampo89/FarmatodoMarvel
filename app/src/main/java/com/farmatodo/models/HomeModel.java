@@ -4,6 +4,7 @@ import com.farmatodo.application.App;
 import com.farmatodo.data.*;
 import com.farmatodo.data.Character;
 import com.farmatodo.interfaces.ApiServices;
+import com.farmatodo.utils.MathUtils;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
@@ -140,7 +141,7 @@ public class HomeModel {
     }
 
     private boolean isNumberMultiple(int n1, int n2){
-        return n1 % n2 == 0;
+        return MathUtils.Companion.isMultiple(n1,n2);
     }
 
 }

@@ -1,5 +1,6 @@
 package com.farmatodo
 
+import com.farmatodo.utils.MathUtils
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -11,7 +12,8 @@ import org.junit.Assert.*
  */
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun multiple_isCorrect() {
+        assertEquals(true, MathUtils.isMultiple(3, 3))
+        assertEquals(false, MathUtils.isMultiple(10, 7))
     }
 }
