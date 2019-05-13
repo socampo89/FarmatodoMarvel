@@ -10,7 +10,7 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+class MathUtilsUnitTest {
     @Test
     fun multiple_isCorrect() {
         assertEquals(true, MathUtils.isMultiple(3, 3))
